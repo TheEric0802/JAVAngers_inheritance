@@ -58,4 +58,8 @@ public class Vehicle {
                 ", year=" + year +
                 '}';
     }
+
+    public String getInformation() {
+        return "Manufacturer: " + manufacturer + ", Model: " + model + ", Year: " + year;
+    }
 }
