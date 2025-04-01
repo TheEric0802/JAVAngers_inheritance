@@ -38,4 +38,9 @@ public class Car extends Vehicle {
                 "numberOfDoors=" + numberOfDoors +
                 "} " + super.toString();
     }
+
+    @Override
+    public String getInformation() {
+        return super.getInformation() + ", Number of Doors: " + numberOfDoors;
+    }
 }
